@@ -1,19 +1,22 @@
 h6{
     color: rgb(184, 184, 184);
 }
+
 h5{
     color: rgb(40, 40, 110);
     font-size:larger;    
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 20px;
 }
+
 p{
     padding-bottom: 14px;
 }
 
 section{
-    padding: 100px;
+    padding: 100px 20px;
 }
