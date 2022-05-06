@@ -1,3 +1,4 @@
+
 h5{
     color: rgb(40, 40, 110);
     font-size:larger;    
@@ -138,7 +139,7 @@ h3{
   }
  
   #inicio{
-    background: linear-gradient(hsla(216, 100%, 28%, 0.205), hsla(216, 100%, 28%, 0.582) ), url(img/motoca.jpg);
+    background: linear-gradient(hsla(216, 100%, 28%, 0.205), hsla(216, 100%, 28%, 0.582) ), url(motoca.jpg);
     min-height:auto;
     background-size:100%;
     background-position: center;
