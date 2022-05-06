@@ -8,113 +8,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
-    
-    <div id="inicio" class="container-fluid">
+
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#inicio">Início</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contatos">Contatos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#mapa">Mapa</a>
-        </li>
-      </ul>
-    </div>
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"> </a>
-          <h6>Mecânica, peças e acessórios</h6>
-        </div>
-    </nav>
-
-    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-  
-      <div class="container-fluid" style="margin-top:70px">
-            <img src="logox.jpg" class= "mx-auto d-block" style="width: 200px">
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle bg-dark text-white" data-bs-toggle="dropdown">MENU</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#inicio">Início</a></li>
+          <li><a class="dropdown-item" href="#contatos">Contatos</a></li>
+          <li><a class="dropdown-item" href="#mapa">Mapa</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="catálogo.html">Catálogo</a></li>
+        </ul>
       </div>
-      <div class="container mt-3">
-        <h1>Início: Conheça a JBS MOTOS</h1>
-        <h5>Tudo sobre</h5>
-        <p> Foi fundada no ano de 2018 por João Bosco da Silva. Desde sua inauguração conta com diversos serviços para motos: oferece manutenção, revisão e consertos em geral, além de troca de óleo e venda de peças e acessórios. Atualmente, há também a compra e venda de motos usadas.</p>
-        <h5>O que você pode encontrar no estabelecimento?</h5>
+      </div>
+    </nav>
+    <section id="inicio">
+      <div id="inicio" class="container-fluid">
 
-        <P>A oficina conta com diversos produtos de diferentes marcas e estilos para que o cliente tenha mais opções de acordo com sua preferência. A seguir há a tabela com alguns dos itens mencionados que podem ser encontrados na JBS Motos. </P>
-        <div class="container mt-3">
-          <img src="trocaoleo.png" class="float-start" width="280" height="200"> 
-          <img src="motoso.jpg.crdownload" class="float-left" width="280" height="200"> 
-          <img src="peu.jpg" class="float-left" width="280" height="200">
-          <img src="chaveiro.jpg.crdownload" class="float-left" width="200" height="200">
-        </div>
-
-        <table class="table table-hover">
-            <thead>
-              <tr>
-                <th>Serviços/Produtos</th>
-                <th>Valor</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Capacetes masculinos e femininos</td>
-                <td>X</td>
-              </tr>
-              <tr>
-                <td>Adesivos</td>
-                <td>X</td>
-              </tr>
-              <tr>
-                <td>Troca de óleo</td>
-                <td>X</td>
-              </tr>
-              <tr>
-                <td>Manutenção e serviços mecânicos</td>
-                <td>X</td>
-              </tr>
-              <tr>
-                <td>Peças para motos</td>
-                <td>X</td>
-              </tr>
-              <tr>
-                <td>Pneus</td>
-                <td>X</td>
-              </tr>
-              <tr>
-                <td>Baterias</td>
-                <td>X</td>
-              </tr>
-              <tr>
-                <td>Chaveiros</td>
-                <td>X</td>
-              </tr>
-              <tr>
-                <td>Motos usadas (Compra e venda)</td>
-                <td>X</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <div class="alert alert-secondary alert-dismissible">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Observação:</strong> Os valores nesta tabela são estimados e podem variar.
+        <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    
+          <div>
+            <h1 style="text-align: center; color: rgb(255, 255, 255);">Página Inicial</h1>
+            <h3 style="color: rgb(53, 53, 53); padding-top: 30px; text-align: center;">Sobre</h3>
+            <p style="color:rgb(255, 255, 255); text-align: center;"> JBS Motos é uma oficina de motos fundada no ano de 2018 na cidade de Raul Soares, Minas Gerais. Desde sua inauguração conta com diversos serviços para motos: oferece manutenção, revisão e consertos em geral, além de troca de óleo e venda de peças e acessórios. Atualmente, a oficina oferece também o serviço de lava a jato.</p>
+            <p style="color: rgb(255, 255, 255); text-align: center;">Para mais informações, acesse o catálogo.</p>
+            <a href="catálogo.html" class="btn btn-dark d-flex justify-content-center">Confira aqui o catálogo</a>
           </div>
-
-     </div>
-     <div id="contatos" class="container-fluid bg-dark text-white" style="padding:100px 20px;">
-      <h1>Contatos</h1>
-      <p>Telefone: (33) 9 9949-6328
-      <p>Endereço: Rua Antônio Pinto Figueiredo, 326, Bairro Bom Jesus - Raul Soares/MG</p>
-      <p>Instagram:
-        <a link href="https://www.instagram.com/jbs_motos/?hl=pt-br" target="blank">@jbs_motos</a></p>
-      <p>Email: joaoboscote2016@gmail.com</p>
-     </div>
+      </div>
+    </section>
+    <div id="contatos" class="container-fluid bg-dark text-white">
+      <h1 style="text-align: center;">Contatos</h1>
+        <div class="d-flex justify-content-center">
+          <a link href="https://bit.ly/3xspVaT" target="blank">
+            <img src="whatsapp.png" class="m-5 pb">
+          </a>
+          <a link href="https://www.instagram.com/jbs_motos/?hl=pt-br" target="blank">
+            <img src="ig.png" margin="32px" width="32px" height="32 px" class="m-5 pb">
+          </a>
+          <a link href="" target="blank">
+            <img src="facebook.png" class="m-5 pb" width="32px" height="32 px">
+          </a>
+        </div>
+        <h3 style="text-align: center; color: gray;">Av. Aimorés, Bom Pastor, 1622, Raul Soares - MG
+        <p>Telefone: (33) 9949-6328</p>
+        </h3>
+    </div>
 
      <section>
-     <div id="mapa" class="container-fluid">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7493.822980050584!2d-42.451356529929846!3d-20.095986458121033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbad65ed05608bd%3A0x68085f594b496942!2sJbs%20Motos!5e0!3m2!1spt-BR!2sbr!4v1648652025794!5m2!1spt-BR!2sbr" width="1024" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-     </div>
+      <div id="mapa" class="container-fluid d-flex  justify-content-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7493.822980050584!2d-42.451356529929846!3d-20.095986458121033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbad65ed05608bd%3A0x68085f594b496942!2sJbs%20Motos!5e0!3m2!1spt-BR!2sbr!4v1648652025794!5m2!1spt-BR!2sbr" width="1024" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
      </section>
 
+     <div id="catalogo" class="container-fluid"></div> 
     </body>
 </html>
